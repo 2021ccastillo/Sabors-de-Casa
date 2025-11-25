@@ -1,0 +1,96 @@
+body {
+ background-color: #a2c4c9;
+}
+
+
+table {
+ background-color: white;
+}
+
+
+table, .subtable {
+ border-collapse: collapse;
+ table-layout: fixed;
+ width: 100%;
+ border: 1px solid #fff;
+}
+
+
+th, td {
+ border: 1px solid #000;
+ text-align: center;
+ vertical-align: middle;
+ width: 16.66%;
+ padding: 5px;
+}
+
+
+button {
+ margin-top: 5px;
+}
+
+
+input#search {
+ width: 90%;
+ padding: 5px;
+}
+
+
+#carrito {
+ max-height: 200px;
+ overflow-y: auto;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+
+
+.menu-row { background-color: #f7c8ff; }
+.menu-cursos, .menu-treballa, .menu-sobre { text-align: center; }
+.menu-cursos, .menu-sobre { width: 25%; }
+.menu-treballa { width: 50%; }
+
+
+.btn-full { width: 100%; }
+
+
+.header-search { width: 25%; }
+.header-title {
+ width: 50%;
+ font-size: 28px;
+ font-weight: bold;
+ color: #a2c4c9;
+}
+.header-carrito { width: 25%; }
+
+
+.title-dolc, .bg-dolc { background-color: #f7c8ff; }
+.title-salat, .bg-salat { background-color: #fff6ba; }
+
+
+.btn-afegir {
+ padding: 5px 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-weight: bold;
+ width: 80%;
+ transition: background 0.3s;
+}
+.bg-dolc .btn-afegir { background-color: #fff6ba; color: #000; }
+.bg-dolc .btn-afegir:hover { background-color: #f7e5a8; }
+.bg-salat .btn-afegir { background-color: #f7c8ff; color: #000; }
+.bg-salat .btn-afegir:hover { background-color: #f0b0ff; }
+
+
+.btn-info {
+ padding: 5px 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-weight: bold;
+ width: 80%;
+ transition: background 0.3s;
+ background-color: #ccc;
+}
+.btn-info:hover { background-color: #aaa; }
