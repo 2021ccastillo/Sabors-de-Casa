@@ -5,10 +5,12 @@ body {
   padding: 0; 
 }
 
+
 table { 
   width: 100%; 
   border-collapse: collapse; 
 }
+
 
 td { 
   padding: 8px; 
@@ -17,20 +19,24 @@ td {
   border: 1px solid #999; 
 }
 
+
 h1 { 
   color: #a2c4c9; 
   margin: 0; 
   text-align: center; 
 }
 
+
 h3 { 
   margin: 0; 
   font-weight: bold; 
 }
 
+
 table > tbody > tr:first-child td { 
   background-color: #f7c8ff; 
 }
+
 
 button { 
   padding: 10px 20px; 
@@ -41,28 +47,34 @@ button {
   transition: 0.3s; 
 }
 
+
 table tr:nth-child(2) td a button { 
   background-color: #ffffff; 
   color: #000; 
 }
+
 
 table tr:nth-child(5) td button { 
   background-color: transparent; 
   color: #000; 
 }
 
+
 table tr:nth-child(6) td button { 
   background-color: #ffffff; 
   color: #000; 
 }
 
+
 button:hover { 
   transform: scale(1.05); 
 }
 
+
 table tr:nth-child(4) td table tr td { 
   background-color: #f7c8ff; 
 }
+
 
 table tr:nth-child(4) td table tr td:nth-child(4),
 table tr:nth-child(4) td table tr td:nth-child(5),
@@ -70,20 +82,24 @@ table tr:nth-child(4) td table tr td:nth-child(6) {
   background-color: #fff6ba; 
 }
 
+
 td a { 
   text-decoration: none; 
   color: #000; 
 }
 
+
 td a:hover { 
   text-decoration: underline; 
 }
+
 
 td[align="right"] { 
   font-size: 14px; 
   color: #000; 
   padding-right: 15px; 
 }
+
 
 @media (max-width: 1024px) { 
   table, td { 
