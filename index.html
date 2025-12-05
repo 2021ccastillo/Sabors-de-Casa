@@ -1,113 +1,101 @@
-<link rel="stylesheet" href="style.css">
+
+<table cellpadding="8" cellspacing="2" border="0" width="100%">
+  <tr>
+     <td>Cursos</td>
+     <td>Treballa amb nosaltres</td>
+     <td>Sobre nosaltres</td>
+  </tr>
 
 
-<table border="1">
-<tr class="menu-row">
- <td class="menu-cursos"><button class="btn-full">Cursos</button></td>
- <td class="menu-treballa"><button class="btn-full">Treballa amb nosaltres</button></td>
- <td class="menu-sobre"><button class="btn-full">Sobre nosaltres</button></td>
-</tr>
+  <tr>
+     <td align="right">
+         <a href="#"><button>Buscar 🔍</button></a>
+     </td>
+     <td><h1 style="font-size: 60px;">Sabors de Casa</h1></td>
+     <td align="right">
+        <a href="#"><button>Cesta 🛒</button></a>
+     </td>
+  </tr>
 
 
-<tr>
- <th class="header-search">
-   <input type="text" id="search" placeholder="🔍 Cerca un producte..." onkeyup="filtrar()">
- </th>
+  <tr>
+     <td colspan="3" align="center">
+        <table cellpadding="6" cellspacing="2" border="0" width="100%">
+           <tr>
+              <td align="center" width="50%">
+                 <h3>Dolç</h3>
+              </td>
+              <td align="center" width="50%">
+                 <h3>Salat</h3>
+              </td>
+           </tr>
+        </table>
+     </td>
+  </tr>
 
 
- <th class="header-title">
-   Sabors de Casa
- </th>
+  <tr>
+     <td colspan="3" align="center">
+        <table cellpadding="6" cellspacing="2" border="0" width="100%">
+           <tr>
+              <td class="producte">
+                 <img src="https://sugargeekshow.com/wp-content/uploads/2022/08/vanilla_cupcake_featured_blog.jpg" width="180" height="180" alt="Magdalenes">
+              </td>
+              <td class="producte">
+                 <img src="https://www.hersheyland.mx/content/dam/Hersheyland_Mexico/es_mx/recipes/recipe-images/grocery-abril/pastel.jpg" width="180" height="180" alt="Pastís">
+              </td>
+              <td class="producte">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOkWYoS4vchOySB6csi2odNbC7WRcalA-gQ&s" width="180" height="180" alt="Galetes">
+              </td>
+              <td class="producte">
+                 <img src="https://lamardedulce.net/wp-content/uploads/2023/09/Mini-croissant-salado.jpg" width="180" height="180" alt="Croissant">
+              </td>
+              <td class="producte">
+                 <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/11/tarta-queso-horno-receta.jpg" width="180" height="180" alt="Pastís salat">
+              </td>
+              <td class="producte">
+                 <img src="https://www.annarecetasfaciles.com/files/bocadillo-pollo-pan-cristal-2-scaled.jpg" width="180" height="180" alt="Entrepà">
+              </td>
+           </tr>
 
 
- <th class="header-carrito">
-   🛒 <u>Llista de la compra</u>
-   <ul id="carrito"></ul>
- </th>
-</tr>
+           <tr>
+              <td>Magdalenes</td>
+              <td>Pastís</td>
+              <td>Galetes</td>
+              <td>Croissant</td>
+              <td>Pastís</td>
+              <td>Entrepà</td>
+           </tr>
 
 
-<tr>
- <td colspan="3">
+           <tr>
+              <td><a href="#"><button>Afegir</button></a></td>
+              <td><a href="#"><button>Afegir</button></a></td>
+              <td><a href="#"><button>Afegir</button></a></td>
+              <td><a href="#"><button>Afegir</button></a></td>
+              <td><a href="#"><button>Afegir</button></a></td>
+              <td><a href="#"><button>Afegir</button></a></td>
+           </tr>
 
 
-   <table class="subtable">
+           <tr>
+              <td><a href="#"><button>Info.</button></a></td>
+              <td><a href="#"><button>Info.</button></a></td>
+              <td><a href="#"><button>Info.</button></a></td>
+              <td><a href="#"><button>Info.</button></a></td>
+              <td><a href="#"><button>Info.</button></a></td>
+              <td><a href="#"><button>Info.</button></a></td>
+           </tr>
+        </table>
+     </td>
+  </tr>
 
 
-     <tr>
-       <th class="dolc title-dolc" colspan="3">Dolç</th>
-       <th class="salat title-salat" colspan="3">Salat</th>
-     </tr>
-
-
-     <tr>
-       <td class="producte">
-         <img src="https://sugargeekshow.com/wp-content/uploads/2022/08/vanilla_cupcake_featured_blog.jpg" width="80" height="80" alt="Magdalenes">
-       </td>
-       <td class="producte">
-         <img src="https://www.hersheyland.mx/content/dam/Hersheyland_Mexico/es_mx/recipes/recipe-images/grocery-abril/pastel.jpg" width="80" height="80" alt="Pastís">
-       </td>
-       <td class="producte">
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOkWYoS4vchOySB6csi2odNbC7WRcalA-gQ&s" width="80" height="80" alt="Galetes">
-       </td>
-
-
-       <td class="producte">
-         <img src="https://lamardedulce.net/wp-content/uploads/2023/09/Mini-croissant-salado.jpg" width="80" height="80" alt="Croissant">
-       </td>
-       <td class="producte">
-         <img src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/11/tarta-queso-horno-receta.jpg" width="80" height="80" alt="Pastís salat">
-       </td>
-       <td class="producte">
-         <img src="https://www.annarecetasfaciles.com/files/bocadillo-pollo-pan-cristal-2-scaled.jpg" width="80" height="80" alt="Entrepà">
-       </td>
-     </tr>
-
-
-     <tr>
-       <td class="bg-dolc">Magdalenes<br><button class="btn-afegir" onclick="afegirCarrito('Magdalenes')">Afegir</button></td>
-       <td class="bg-dolc">Pastís<br><button class="btn-afegir" onclick="afegirCarrito('Pastís')">Afegir</button></td>
-       <td class="bg-dolc">Galetes<br><button class="btn-afegir" onclick="afegirCarrito('Galetes')">Afegir</button></td>
-
-
-       <td class="bg-salat">Croissant<br><button class="btn-afegir" onclick="afegirCarrito('Croissant')">Afegir</button></td>
-       <td class="bg-salat">Pastís salat<br><button class="btn-afegir" onclick="afegirCarrito('Pastís salat')">Afegir</button></td>
-       <td class="bg-salat">Entrepà<br><button class="btn-afegir" onclick="afegirCarrito('Entrepà')">Afegir</button></td>
-     </tr>
-
-
-     <tr>
-       <td class="bg-dolc"><button class="btn-info" onclick="mostrarInfo('Magdalenes')">Info.</button></td>
-       <td class="bg-dolc"><button class="btn-info" onclick="mostrarInfo('Pastís')">Info.</button></td>
-       <td class="bg-dolc"><button class="btn-info" onclick="mostrarInfo('Galetes')">Info.</button></td>
-
-
-       <td class="bg-salat"><button class="btn-info" onclick="mostrarInfo('Croissant')">Info.</button></td>
-       <td class="bg-salat"><button class="btn-info" onclick="mostrarInfo('Pastís salat')">Info.</button></td>
-       <td class="bg-salat"><button class="btn-info" onclick="mostrarInfo('Entrepà')">Info.</button></td>
-     </tr>
-
-
-     <tr>
-       <td>Instagram: <a href="#">SaborsdeCasa</a></td>
-       <td colspan="4"></td>
-       <td>Telèfon: 657 76 34 21</td>
-     </tr>
-
-
-   </table>
-
-
-   <br>
-
-
-   <form onsubmit="return validacioForm()">
-     <label for="tel">Introdueix el teu telèfon per rebre ofertes:</label><br>
-     <input type="text" id="tel" placeholder="Número de telèfon"><br><br>
-     <button type="submit">Enviar</button>
-   </form>
-
-
- </td>
-</tr>
+  <tr>
+     <td><a href="https://www.instagram.com/" target="_blank">@Saborsdecasa</a></td>
+     <td>Introdueix el teu telèfon per rebre ofertes:              <input type="tel" placeholder="Telèfon"></td>
+     <td>+34 657763421
+</td>
+  </tr>
 </table>
